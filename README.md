@@ -1,4 +1,4 @@
-# 📊 Predictive Modeling and CDSS for SDF Markers
+# 📊 A Public Benchmark Study for Sperm DNA Fragmentation Prediction and Low-Risk Patients Identification
 
 This repository contains the implementation code for our research paper on predictive modeling of **Sperm DNA Fragmentation (SDF)** markers and the design of a **Clinical Decision Support System (CDSS)**. The analysis was conducted on a clinical dataset through a structured workflow using Jupyter Notebooks.
 
