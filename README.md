@@ -6,6 +6,12 @@ This repository contains the implementation code for our research paper on predi
 
 ## 🗂 Repository Structure
 
+### `data/`  
+Raw and processed datasets, including:
+- `raw_data.xlsx`: raw data from the fertility center.
+- `analyzed_data.pkl`: Preprocessed training-validation set for SDF benchmark and CDSS training.
+- `analyzed_test_data.pkl`: Preprocessed test set for SDF benchmark and CDSS evaluation.
+
 ### `notebooks/`  
 Contains the complete analysis pipeline:
 
@@ -16,12 +22,6 @@ Contains the complete analysis pipeline:
 - `05_model_benchmarking.ipynb`: ML models for SDF prediction + SHAP explanations.  
 - `06_cdss_design.ipynb`: CDSS development for low-risk patient identification.  
 - `07_error_analysis.ipynb`: Final error and explainability analysis.  
-
-### `data/`  
-Raw and processed datasets, including:
-- `raw_data.xlsx`: raw data from the fertility center.
-- `analyzed_data.pkl`: Preprocessed training-validation set for SDF benchmark and CDSS training.
-- `analyzed_test_data.pkl`: Preprocessed test set for SDF benchmark and CDSS evaluation.
 
 ### `outputs/models/`  
 Trained models saved via `joblib`, used in benchmarking and CDSS.
