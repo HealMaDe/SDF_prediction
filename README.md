@@ -32,7 +32,7 @@ Trained models saved via `joblib`, used in benchmarking and CDSS.
 
 - Python ≥ 3.8  
 - Jupyter Notebook  
-- Key libraries: `pandas`, `numpy`, `scikit-learn`, `xgboost`, `lightgbm`, `catboost`, `shap`, `matplotlib`, `seaborn`, `scipy`, `joblib`
+- Key libraries: `pandas`, `numpy`, `scikit-learn`, `random forests`,`xgboost`, `lightgbm`, `catboost`, `optuna`, `shap`, `matplotlib`, `seaborn`, `scipy`, `joblib`
 
 ---
 
